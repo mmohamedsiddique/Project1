@@ -220,7 +220,10 @@ p {
   padding-top: 0.129em; /* 2.849px */
   padding-bottom: 0.129em; /* 2.849px */
 }
-
+videoWrapper
+{
+  width="560";
+  height="315";
 label {
   display: inline-block;
   padding-top: 0.297em; /* 4.749px */
@@ -323,9 +326,7 @@ input[type=radio] {
     width: 99%;
     float: none;
   }
-  embed-video
-  { width: 1000%%
-  }
+  
   input[type=radio] {
     width: 9%; 
   }
@@ -347,9 +348,7 @@ input[type=radio] {
   	text-align: right;
     width: 100%
   }
-  embed-video
-  { width: 1000%%
-  }
+  
   p {
     width: 75%;
   }
@@ -383,9 +382,7 @@ input[type=radio] {
   input[type=email] {
     width: 60%; 
   }
-  embed-video
-  { width: 1000%%
-  }
+  
   input[type=text] {
     width: 60%;
   }
@@ -410,9 +407,7 @@ input[type=radio] {
   	text-align: right;
     /*width: 85%;*/
   }
-  embed-video
-  { width: 1000%
-  }
+  
   p {
     width: 100%;
   }
