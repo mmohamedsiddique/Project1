@@ -220,13 +220,21 @@ p {
   padding-top: 0.129em; /* 2.849px */
   padding-bottom: 0.129em; /* 2.849px */
 }
-videoWrapper
-{
-  width="560";
-  height="315";
-  
-  
-  }
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
 label {
   display: inline-block;
   padding-top: 0.297em; /* 4.749px */
@@ -290,9 +298,6 @@ input[type=radio] {
     float: none;
   }
   
-  embed-video
-  { width: 1000%%
-  }
   h1 {
     font-size: 1.375em; /* 22px */
   }
