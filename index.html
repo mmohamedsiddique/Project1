@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>ITMD 362 Project 1</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" media="screen" href="css/reset.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <script src="js/site.js" async></script>
+</head>
+<body>
+  <main id="content">
+    <form id="clubinfo" method="get" action="#null">
+      <h1>Welcome to New iPhone XR Announcement</h1>
+      <h2>We are very excited to launch this very special promotion </h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/tG7vx7-3sl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p> Sign up today to get the latest update on New iPhone XR special promotion! </p>
+      <ul>
+        <li>
+          <label for="fname">FIRST NAME: </label> <input type="text" id="fname" name="fname" autocomplete="on"/>
+        </li>
+        <li>
+          <label for="lname">LAST NAME: </label> <input type="text" id="lname" name="lname" autocomplete="on"/>
+        </li>
+        <li>
+          <label for="email">EMAIL: </label> <input type="email" id="email" name="email" autocomplete="on"/>
+        </li>
+        <li> 
+         <label for="birthday"> Birthday:</label> <input type="date" value="MM/DD/YYYY" name="bday">
+        </li> 
+        <li>
+          <label> Are you able to wait for this new promotion? </label> <input type="radio" name="status" value="yes" checked>YES  <input type="radio" name="status" value="no">NO
+        </li>
+        <li>
+          <input type="submit" id="submit" value="Submit" onclick="confirm();"/>
+        </li>
+      </ul>
+    </form>
+  </main>
+</body>
+</html>
