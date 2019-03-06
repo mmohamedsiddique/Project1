@@ -18,7 +18,7 @@ function confirm(event){
           fname = document.getElementById("fname").value;
           lname = document.getElementById("lname").value;
           alert("Thank you " + fname + " " + lname + " for signing up for our promotion!\n" +
-                "We will update you as soon as new sales starts. !");
+                "We will update you as soon as new sales starts!");
           return true;
         }
   }
