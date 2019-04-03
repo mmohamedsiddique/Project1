@@ -259,7 +259,7 @@ input[type=date] {
 
 }
 input[type=email] {
-  border: none;
+  border: right;
   background-color: #C9ACC1;
   font-family: 'Source Sans Pro', sans-serif;
   padding-left: 0.297em; /* 4.749px */
@@ -269,6 +269,7 @@ input[type=email] {
 
 input[type=submit] {
   font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
   margin-top: 1em; /* 22px */
   padding-bottom: 0.297em; /* 4.749px */
   padding-left: 0.297em; /* 4.749px */
