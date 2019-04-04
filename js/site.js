@@ -1,7 +1,7 @@
-function validateForm() {
-  var x = document.forms["fname"]["lname"].value;
-  if (x == "i") {
-    alert("Name must be filled out");
-    return true;
-  }
-}
+// jQuery 3.x-style ready event and locally scoped $
+jQuery(function($) {
+  $('html').removeClass('nojs');
+  $('html').addClass('hasjs');
+});
+function
+
