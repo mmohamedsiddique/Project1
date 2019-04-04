@@ -4,7 +4,7 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 function confirm() {
-var x = document.getElementbyID("fname").value;
+var x = document.getElementById("fname").value;
 if (x == "") {
 alert("Your name does not exist in this world");
 return false;
