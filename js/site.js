@@ -4,9 +4,9 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 function confirm() {
-var x = document.getElementById("fname").value;
+var x = document.getElementById("bday").value;
 if (x == "") {
-alert("Your name does not exist in this world");
+alert("Your format is incorrect, please enter is at mm/dd/yyyy or choose from the calendar");
 return false;
 }
 else
