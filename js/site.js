@@ -4,8 +4,8 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 function confirm() {
-var button1 = document.getElementById("button1");
-var button2 = document.getElementById("button2");
+var button1 = document.getElementById("radio1");
+var button2 = document.getElementById("radio2");
 
 if (button1.checked){
    alert("Thank you for signing up for our newsletter!\n" +
