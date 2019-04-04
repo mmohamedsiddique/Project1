@@ -5,13 +5,13 @@ jQuery(function($) {
 });
 function confirm() {
 var x = document.getElementById("bday").value;
-if (x == "") {
+if (x < 18, "year") {
 alert("Your format is incorrect, please enter is at mm/dd/yyyy or choose from the calendar");
 return false;
 }
 else
 {
   alert("Thank you for signing up for our newsletter!\n" +
-    "We will update you as sooon as new sales season starts!");
+    "We will update you as soon as new sales season starts!");
 }
 }
