@@ -3,17 +3,16 @@ jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
 });
-function getAge(bday) {
-    var today = new Date();
-    var birthDate = new Date(bday);
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
-    }
-    return age;
-}
+function confirm() {
+var x = document.getElementById("bday").value;
+var fname = document.getElementById("fname").value ;
+ 	if ( x < 18 ) {
+ 	
+ 		alert("We are sorry to inform you are not eligible for this promotion");
+ 		
+ 		}
+ 	 else if ( x > 18 ) { 
+ 	
+ 		alert("Thank you for signing up for this," + fname + ". You rock!");
+ 		}
 
-if(getAge("27/06/1989") >= 18) {
-    alert("Sorry you cannot be under 18 to enter this promotion");
-} 
