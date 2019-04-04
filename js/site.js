@@ -4,7 +4,7 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 function confirm() {
-var x = document.getElementById("bday").value;
+int x = document.getElementById("bday").value;
 var fname = document.getElementById("fname").value ;
  	if ( x < 18 ) {
  	
