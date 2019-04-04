@@ -1,15 +1,17 @@
-
+// jQuery 3.x-style ready event and locally scoped $
+jQuery(function($) {
+  $('html').removeClass('nojs');
+  $('html').addClass('hasjs');
+});
 function confirm() {
-int x = document.getElementById("bday").value;
-var fname = document.getElementById("fname").value ;
- 	if ( x < 18 ) {
- 	
- 		alert("We are sorry to inform you are not eligible for this promotion");
- 		
- 		}
- 	 else if ( x > 18 ) { 
- 	
- 		alert("Thank you for signing up for this," + fname + ". You rock!");
- 		}
-
+var x = document.getElementbyID("fname").value;
+if (x == "") {
+alert("Your name does not exist in this world");
+return false;
+}
+else
+{
+  alert("Thank you for signing up for our newsletter!\n" +
+    "We will update you as sooon as new sales season starts!");
+}
 }
