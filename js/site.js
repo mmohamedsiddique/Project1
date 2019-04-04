@@ -1,8 +1,4 @@
-// jQuery 3.x-style ready event and locally scoped $
-jQuery(function($) {
-  $('html').removeClass('nojs');
-  $('html').addClass('hasjs');
-});
+
 function confirm() {
 int x = document.getElementById("bday").value;
 var fname = document.getElementById("fname").value ;
@@ -16,3 +12,4 @@ var fname = document.getElementById("fname").value ;
  		alert("Thank you for signing up for this," + fname + ". You rock!");
  		}
 
+}
