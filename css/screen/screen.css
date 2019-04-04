@@ -259,7 +259,7 @@ input[type=date] {
 
 }
 input[type=email] {
-  border: right;
+  border: none;
   background-color: #C9ACC1;
   font-family: 'PT Serif', serif;
   padding-left: 0.297em; /* 4.749px */
